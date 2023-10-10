@@ -4,7 +4,7 @@ from datetime import datetime
 
 
 # book = xlrd.open_workbook("data/data.xls")
-book = xlrd.open_workbook("data/mercantil.xlsx")
+book = xlrd.open_workbook("data/data.xlsx")
 sh = book.sheet_by_index(0)
 
 empty_cell= False
